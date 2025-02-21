@@ -1,0 +1,3 @@
+n = int(input())
+tuple_elements = tuple(map(int, input().split()))
+print(hash(tuple_elements))
